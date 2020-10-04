@@ -37,7 +37,7 @@ p {
   margin: 0 auto;
 }
 
-.product__description {
+.vinyl__description {
   color: white;
 }
 
@@ -143,36 +143,36 @@ p {
   line-height: 1.2;
 }
 
-.product {
+.vinyl {
   background: radial-gradient(var(--clr-inner), var(--clr-outer));
   padding: 3em;
   border-radius: 1em;
   text-align: center;
   margin-bottom: 5em;
 }
-.product__title {
+.vinyl__title {
   font-size: 4rem;
   line-height: 1.1;
   color: #fff;
   text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
   font-size: clamp(3rem, calc(5vw + 1rem), 5.5rem);
 }
-.product__image {
+.vinyl__image {
   margin: -5em 0 0 0;
 }
 @media (min-width: 45em) {
-  .product {
+  .vinyl {
     text-align: left;
     margin-bottom: 9em;
   }
-  .product__image {
+  .vinyl__image {
     float: right;
     width: 40%;
     shape-outside: url(/vinyl/steve_rachmad_virton.png);
     shape-margin: 1em;
     margin: 0 -5em 0 0;
   }
-  .product__image__title {
+  .vinyl__image__title {
     margin: 0;
   }
 }
